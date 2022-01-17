@@ -1,7 +1,6 @@
 from django.shortcuts import redirect
 from api.models import Room
 from .models import Vote
-# from .credentials import REDIRECT_URI,CLIENT_ID,CLIENT_SECRET
 import os
 from rest_framework.views import APIView
 from requests import Request, post
